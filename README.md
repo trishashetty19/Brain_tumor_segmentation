@@ -1,1 +1,3 @@
 This repository contains deep learning models for brain tumor segmentation, including ResNet, UNet, SegNet, and hybrid models like Seg-UNet and USegNet. Utilizing a Kaggle MRI dataset, we preprocessed, trained, and evaluated these CNN architectures. ResNet leads in mean accuracy, while Seg-UNet excels in multiple metrics like Cohen’s Kappa, MCC, Roc-AUC, F1 score, Jaccard, Recall, Precision, Specificity, and Dice coefficient. Segnet3 offers the fastest test time but has lower performance in other metrics. Overall, Seg-UNet is the top performer across most metrics, balancing accuracy and efficiency.
+
+Dataset: https://www.kaggle.com/datasets/nikhilroxtomar/brain-tumor-segmentation
